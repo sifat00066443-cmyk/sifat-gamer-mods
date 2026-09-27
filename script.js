@@ -19,7 +19,7 @@ const MODS = [
     category: "Client",
     image: "assets/infinity.svg",
     description: "Your Minecraft Bedrock client or utility pack.",
-    url: "https://www.mediafire.com/"
+    url: "https://www.mediafire.com/file/mhkig6mv4ep63cx/Infinity_Client.mcpack/file"
   },
   {
     name: "SIFAT GAMER Texture Pack",
