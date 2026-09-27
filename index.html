@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SIFAT GAMER - Minecraft Mods, Addons, Texture Packs and Clients">
+  <title>SIFAT GAMER | Minecraft Mods</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-overlay">
+      <div class="profile">
+        <div class="avatar">SG</div>
+        <h1>SIFAT GAMER</h1>
+        <p>Welcome to the Link Bank</p>
+        <div class="socials">
+          <a href="#" aria-label="YouTube">▶</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="Discord">◉</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <div>
+        <h2>Minecraft Downloads</h2>
+        <p>Mods • Addons • Texture Packs • Clients</p>
+      </div>
+      <input id="search" type="search" placeholder="Search mods..." autocomplete="off">
+    </section>
+
+    <div id="categories" class="categories"></div>
+    <section id="modGrid" class="mod-grid"></section>
+
+    <div id="empty" class="empty hidden">
+      <h3>No mods found</h3>
+      <p>Try another name or category.</p>
+    </div>
+
+    <nav class="pagination" aria-label="Pagination">
+      <button id="prevBtn">‹ Previous</button>
+      <span id="pageInfo">Page 1</span>
+      <button id="nextBtn">Next ›</button>
+    </nav>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> SIFAT GAMER • All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
